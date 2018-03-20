@@ -31,12 +31,31 @@ body{
 .modal-content{
     background-color: whitesmoke;
     margin: 20% auto;
-    padding: 20px;
     width: 70%;
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0,0,0.17);
     animation-name: modalopen;
     animation-duration: 2s;
+}
 
+.modal-header h2, .modal-footer h3{
+    margin: 0;
+}
+
+.modal-header{
+    background: yellowgreen;
+    padding: 15px;
+    color: black;
+}
+
+.modal-body{
+    padding: 10px 20px;
+}
+
+.modal-footer{
+    background: yellowgreen;
+    padding: 10px;
+    color: black;
+    text-align: center;
 }
 
 .closeBtn{
@@ -46,7 +65,7 @@ body{
 }
 
 .closeBtn:hover,.closeBtn:focus{
-    color: teal;
+    color: whitesmoke;
     text-decoration: none;
     cursor: pointer;
 }
